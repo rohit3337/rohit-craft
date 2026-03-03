@@ -4,7 +4,7 @@ const experiences = [
   {
     date: 'April 2025 – August 2025',
     title: 'Client-Based Internship',
-    company: 'Silogis Nanosystems – NXP Semiconductors, Bengaluru',
+    company: 'Silogix Nanosystems – NXP Semiconductors, Bengaluru',
     desc: 'Worked on automated impact analysis of single transistor, bitcell, and memory instances at the circuit level. Designed a dashboard-integrated workflow for data extraction, interpretation, visualization, and reporting.',
   },
   {

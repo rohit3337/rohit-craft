@@ -8,6 +8,12 @@ import { EMAILJS_CONFIG } from '../emailjs.config'
 const STORAGE_KEY = 'rohit_portfolio_feedback'
 
 const defaultFeedbacks = [
+   {
+    name: 'Sumir Singh',
+    rating: 5,
+    message: 'Rohit is an exceptional developer! He built a custom dashboard for our analytics project that exceeded our expectations. Highly recommended for any web development needs.',
+    date: '2025-02-15',
+  },
   {
     name: 'Ansh Sengar',
     rating: 5,

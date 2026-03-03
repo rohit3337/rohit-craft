@@ -5,7 +5,7 @@ import { FaRobot, FaBrain, FaCalendarAlt, FaComments, FaMicrochip, FaGlobe } fro
 
 const projects = [
   {
-    title: 'Enigma-ML: Agentic AI Tutor',
+    title: 'Enginuity-ML: Agentic AI Tutor',
     desc: 'An agent-driven ML tutoring system using LangChain and Gradio with autonomous reasoning agents, adaptive quizzes based on Bloom\'s Taxonomy, and progress tracking dashboards.',
     tags: ['Python', 'LangChain', 'Gradio', 'LLMs', 'SQLite'],
     category: 'ai',

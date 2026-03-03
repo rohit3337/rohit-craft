@@ -34,7 +34,7 @@ export default function About() {
           </p>
           <p>
             I have hands-on experience with <strong>React, Python, Java, Spring Boot, LangChain, 
-            and Django</strong>. I've worked at <strong>Silogis Nanosystems (NXP Semiconductors)</strong> and 
+            and Django</strong>. I've worked at <strong>Silogix Nanosystems (NXP Semiconductors)</strong> and 
             <strong> Care Health Insurance</strong>, building production-ready systems from dashboards to 
             backend APIs.
           </p>
@@ -51,7 +51,7 @@ export default function About() {
             </div>
             <div className="about-detail">
               <span className="label">Education</span>
-              <span className="value">B.Tech (CSE), DEI</span>
+              <span className="value">B.Tech EE (CSE), DEI</span>
             </div>
             <div className="about-detail">
               <span className="label">Email</span>
