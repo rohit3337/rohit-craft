@@ -3,9 +3,9 @@ import { useInView } from 'react-intersection-observer'
 const experiences = [
   {
     date: 'April 2025 – August 2025',
-    title: 'Client-Based Internship',
-    company: 'Silogix Nanosystems – NXP Semiconductors, Bengaluru',
-    desc: 'Worked on automated impact analysis of single transistor, bitcell, and memory instances at the circuit level. Designed a dashboard-integrated workflow for data extraction, interpretation, visualization, and reporting.',
+    title: 'Semiconductor Test & Automation Intern',
+    company: 'NXP Semiconductors (via Silogix Nanosystems), Bengaluru',
+    desc: 'Automation and testing of impact analysis of single transistor, bitcell, and memory instances at the circuit level. Built a dashboard-integrated pipeline for data extraction and visualization.',
   },
   {
     date: 'May 2024 – June 2024',

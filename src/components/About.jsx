@@ -30,13 +30,13 @@ export default function About() {
           <p>
             I'm a B.Tech student at <strong>Dayalbagh Educational Institute</strong> (Electrical Engineering 
             specializing in Computer Science) with a strong passion for building web applications, 
-            AI-powered tools, and full-stack solutions. Currently maintaining a <strong>8.59 CGPA</strong>.
+            AI-powered tools, and full-stack solutions. Currently maintaining a <strong>8.63 CGPA</strong>.
           </p>
           <p>
             I have hands-on experience with <strong>React, Python, Java, Spring Boot, LangChain, 
-            and Django</strong>. I've worked at <strong>Silogix Nanosystems (NXP Semiconductors)</strong> and 
-            <strong> Care Health Insurance</strong>, building production-ready systems from dashboards to 
-            backend APIs.
+            and Django</strong>. I've interned at <strong>NXP Semiconductors</strong> (via Silogix Nanosystems), 
+            working on Automation and testing of impact analysis of single transistor, bitcell, and memory instances at the circuit level. Built a dashboard-integrated pipeline for data extraction and  visualization, and at <strong>Care Health Insurance</strong>, building 
+            production-ready systems from test dashboards to backend APIs.
           </p>
           <p>
             I'm available to build your web applications according to your specific requirements — 
