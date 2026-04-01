@@ -22,7 +22,7 @@ export default function Hero() {
         >
           <div className="hero-badge">
             <span className="dot" />
-            Available for Freelance Projects
+            Open to Internships and Collaborations
           </div>
 
           <h1 className="hero-title">
@@ -31,6 +31,8 @@ export default function Hero() {
               <TypeAnimation
                 sequence={[
                   'Web Applications',
+                  2000,
+                  'C++ Systems Projects',
                   2000,
                   'React Websites',
                   2000,
@@ -46,21 +48,21 @@ export default function Hero() {
                 repeat={Infinity}
               />
             </span>
-            <br />For Your Business
+            <br />That Solve Real Problems
           </h1>
 
           <p className="hero-subtitle">
             Hi, I'm <strong>Rohit</strong> — a passionate developer specializing in building
-            modern, responsive web applications tailored to your unique requirements.
-            Let's bring your ideas to life.
+            modern applications across web, AI, and system-level development.
+            This portfolio highlights my projects, skills, and engineering journey.
           </p>
 
           <div className="hero-buttons">
             <button className="btn-primary" onClick={() => scrollTo('#contact')}>
-              Let's Work Together <FiArrowRight />
+              Contact Me <FiArrowRight />
             </button>
             <button className="btn-secondary" onClick={() => scrollTo('#projects')}>
-              View My Work <FiDownload />
+              View Projects <FiDownload />
             </button>
           </div>
 
@@ -75,7 +77,7 @@ export default function Hero() {
             </div>
             <div className="hero-stat">
               <div className="number">100%</div>
-              <div className="label">Client Satisfaction</div>
+              <div className="label">Commitment</div>
             </div>
           </div>
         </motion.div>
@@ -99,7 +101,7 @@ export default function Hero() {
               <div>{'  '}<span className="property">role</span>: <span className="string">"Full-Stack Dev"</span>,</div>
               <div>{'  '}<span className="property">skills</span>: <span className="bracket">[</span></div>
               <div>{'    '}<span className="string">"React"</span>, <span className="string">"Python"</span>,</div>
-              <div>{'    '}<span className="string">"Spring Boot"</span>,</div>
+              <div>{'    '}<span className="string">"C++"</span>, <span className="string">"Spring Boot"</span>,</div>
               <div>{'    '}<span className="string">"LangChain"</span></div>
               <div>{'  '}<span className="bracket">]</span>,</div>
               <div>{'  '}<span className="property">available</span>: <span className="value">true</span>,</div>

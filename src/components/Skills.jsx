@@ -7,6 +7,7 @@ const topSkills = [
   { icon: <FaReact />, name: 'React', level: 'Familiar' },
   { icon: <FaPython />, name: 'Python', level: 'Intermediate' },
   { icon: <FaJava />, name: 'Java', level: 'Advanced' },
+  { icon: <FiCode />, name: 'C++', level: 'Advanced' },
   { icon: <SiSpringboot />, name: 'Spring Boot', level: 'Intermediate' },
   { icon: <SiDjango />, name: 'Django', level: 'Intermediate' },
   { icon: <SiJavascript />, name: 'JavaScript', level: 'Intermediate' },
@@ -21,6 +22,7 @@ const categories = [
     skills: [
       { name: 'Python', pct: 90 },
       { name: 'Java', pct: 85 },
+      { name: 'C++', pct: 88 },
       { name: 'C', pct: 80 },
       { name: 'JavaScript', pct: 85 },
     ],
@@ -67,7 +69,7 @@ export default function Skills() {
         <div className="section-badge">My Stack</div>
         <h2 className="section-title">Skills & Technologies</h2>
         <p className="section-subtitle">
-          Technologies and tools I use to bring your ideas to life.
+          Technologies and tools I use to build impactful projects.
         </p>
       </div>
 

@@ -1,9 +1,19 @@
 import { useState } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { FiExternalLink, FiGithub } from 'react-icons/fi'
-import { FaRobot, FaBrain, FaCalendarAlt, FaComments, FaMicrochip, FaGlobe } from 'react-icons/fa'
+import { FaRobot, FaBrain, FaCalendarAlt, FaComments, FaMicrochip, FaGlobe, FaFileArchive } from 'react-icons/fa'
 
 const projects = [
+  {
+    title: 'HuffZip: High-Performance File Compression Engine',
+    desc: 'A Huffman Coding-based compression engine using min-heaps, binary trees, and bit manipulation for efficient storage with reliable encode/decode pipelines and accurate file reconstruction.',
+    tags: ['C++', 'STL', 'DSA', 'Huffman Coding', 'Bit Manipulation'],
+    category: 'systems',
+    icon: <FaFileArchive />,
+    gradient: 'linear-gradient(135deg, #4facfe33, #00f2fe33)',
+    github: '#',
+    live: '#',
+  },
   {
     title: 'Enginuity-ML: Agentic AI Tutor',
     desc: 'An agent-driven ML tutoring system using LangChain and Gradio with autonomous reasoning agents, adaptive quizzes based on Bloom\'s Taxonomy, and progress tracking dashboards.',
@@ -66,7 +76,7 @@ const projects = [
   },
 ]
 
-const filters = ['All', 'AI', 'Full-Stack', 'Web']
+const filters = ['All', 'AI', 'Full-Stack', 'Systems', 'Web']
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('All')
