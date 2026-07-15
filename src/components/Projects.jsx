@@ -1,58 +1,64 @@
 import { useState } from 'react'
 import { useInView } from 'react-intersection-observer'
-import { FiExternalLink, FiGithub } from 'react-icons/fi'
-import { FaRobot, FaBrain, FaCalendarAlt, FaComments, FaMicrochip, FaGlobe, FaFileArchive } from 'react-icons/fa'
+import { FiGithub } from 'react-icons/fi'
+import { FaBrain, FaCalendarAlt, FaComments, FaGlobe, FaFileArchive, FaRobot, FaMicrochip } from 'react-icons/fa'
+
+const githubProfile = 'https://github.com/rohit3337/'
 
 const projects = [
   {
-    title: 'HuffZip: High-Performance File Compression Engine',
-    desc: 'A Huffman Coding-based compression engine using min-heaps, binary trees, and bit manipulation for efficient storage with reliable encode/decode pipelines and accurate file reconstruction.',
-    tags: ['C++', 'STL', 'DSA', 'Huffman Coding', 'Bit Manipulation'],
-    category: 'systems',
-    icon: <FaFileArchive />,
-    gradient: 'linear-gradient(135deg, #4facfe33, #00f2fe33)',
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'Enginuity-ML: Agentic AI Tutor',
-    desc: 'An agent-driven ML tutoring system using LangChain and Gradio with autonomous reasoning agents, adaptive quizzes based on Bloom\'s Taxonomy, and progress tracking dashboards.',
-    tags: ['Python', 'LangChain', 'Gradio', 'LLMs', 'SQLite'],
+    title: 'Enginuity-ML - Agentic AI Tutor for Machine Learning Concepts',
+    desc: 'An agent-driven ML tutoring platform delivering interactive explanations, step-by-step problem solving, and adaptive quizzes based on Bloom\'s Taxonomy with autonomous reasoning and learner-specific feedback.',
+    tags: ['Python', 'LangChain', 'React.js', 'Node.js', 'PostgreSQL'],
     category: 'ai',
     icon: <FaBrain />,
     gradient: 'linear-gradient(135deg, #6c63ff33, #a855f733)',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/rohit3337/Enginuity-ml_tutor',
   },
   {
-    title: 'Career Conversation AI Agent',
-    desc: 'A career-conversation web agent using OpenAI and Gradio, enabling personalized user interactions with automatic detail capture, PDF/text parsing, and real-time Pushover notifications.',
-    tags: ['Python', 'Gradio', 'Pushover API', 'Gemini API'],
+    title: 'Nirogaverse - AI-Powered Ayurvedic Health Assistant',
+    desc: 'A multi-agent AI consultation system delivering personalized wellness guidance, health-risk assessment, and lifestyle recommendations with knowledge retrieval from classical Ayurvedic texts and voice support.',
+    tags: ['Python', 'Multi-Agent AI', 'LLMs', 'Voice Interface'],
     category: 'ai',
     icon: <FaComments />,
     gradient: 'linear-gradient(135deg, #00d4aa33, #6c63ff33)',
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'Sidekick: Agentic Co-Worker',
-    desc: 'An agentic personal co-worker application using LangChain with multi-step reasoning, success-criteria evaluation, and conversational state management via Gradio interface.',
-    tags: ['Python', 'LangChain', 'Gradio', 'Async I/O'],
-    category: 'ai',
-    icon: <FaRobot />,
-    gradient: 'linear-gradient(135deg, #a855f733, #ff6b6b33)',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/rohit3337/Nirogaverse-2',
   },
   {
     title: 'Event Management System',
     desc: 'A full-stack event management platform with event listing, participant registration, secure authentication, REST APIs using Spring Boot, and MySQL backend.',
-    tags: ['Java', 'Spring Boot', 'MySQL', 'HTML/CSS/JS'],
+    tags: ['Java', 'Spring Boot', 'MySQL', 'REST API'],
     category: 'fullstack',
     icon: <FaCalendarAlt />,
     gradient: 'linear-gradient(135deg, #ff6b6b33, #ffa50233)',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/rohit3337/EVENT-MANAGEMENT-SYSTEM',
+  },
+  {
+    title: 'Career Conversation AI Agent',
+    desc: 'A career-conversation web agent using OpenAI and Gradio, enabling personalized user interactions with automatic detail capture, PDF/text parsing, and real-time notifications.',
+    tags: ['Python', 'Gradio', 'OpenAI', 'Automation'],
+    category: 'ai',
+    icon: <FaComments />,
+    gradient: 'linear-gradient(135deg, #00d4aa33, #6c63ff33)',
+    github: githubProfile,
+  },
+  {
+    title: 'Sidekick - Agentic Co-Worker',
+    desc: 'An agentic personal co-worker application using LangChain with multi-step reasoning, success-criteria evaluation, and conversational state management through a Gradio interface.',
+    tags: ['Python', 'LangChain', 'Gradio', 'Async I/O'],
+    category: 'ai',
+    icon: <FaRobot />,
+    gradient: 'linear-gradient(135deg, #a855f733, #ff6b6b33)',
+    github: githubProfile,
+  },
+  {
+    title: 'HuffZip - High-Performance File Compression Engine',
+    desc: 'A Huffman Coding-based compression tool using min-heaps, binary trees, and bit manipulation for efficient lossless file compression and accurate recovery.',
+    tags: ['C++', 'STL', 'DSA', 'Huffman Coding'],
+    category: 'systems',
+    icon: <FaFileArchive />,
+    gradient: 'linear-gradient(135deg, #4facfe33, #00f2fe33)',
+    github: 'https://github.com/rohit3337/Huffzip',
   },
   {
     title: 'Microgrid Energy Simulator',
@@ -61,18 +67,16 @@ const projects = [
     category: 'fullstack',
     icon: <FaMicrochip />,
     gradient: 'linear-gradient(135deg, #ffa50233, #00d4aa33)',
-    github: '#',
-    live: '#',
+    github: githubProfile,
   },
   {
-    title: 'Portfolio Website (This Site!)',
-    desc: 'A modern, responsive portfolio website built with React featuring smooth animations, particle effects, cursor glow, feedback system, and contact automation.',
+    title: 'Portfolio Website',
+    desc: 'A modern, responsive portfolio website built with React featuring smooth animations, a clean light aesthetic, and contact automation.',
     tags: ['React', 'Framer Motion', 'Responsive'],
     category: 'web',
     icon: <FaGlobe />,
     gradient: 'linear-gradient(135deg, #6c63ff33, #00d4aa33)',
-    github: '#',
-    live: '#',
+    github: githubProfile,
   },
 ]
 
@@ -118,9 +122,6 @@ export default function Projects() {
                   <a href={p.github} target="_blank" rel="noreferrer" title="GitHub">
                     <FiGithub />
                   </a>
-                  <a href={p.live} target="_blank" rel="noreferrer" title="Live Demo">
-                    <FiExternalLink />
-                  </a>
                 </div>
               </div>
               <div className="project-info">
@@ -131,6 +132,11 @@ export default function Projects() {
                 </div>
                 <h3>{p.title}</h3>
                 <p>{p.desc}</p>
+                <div className="project-links">
+                  <a href={p.github} target="_blank" rel="noreferrer">
+                    <FiGithub /> GitHub
+                  </a>
+                </div>
               </div>
             </div>
           ))}

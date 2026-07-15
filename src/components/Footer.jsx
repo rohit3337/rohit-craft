@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-brand">
-          <span className="logo">Rohit.craft</span>
+          <span className="logo">Rohit.Portfolio</span>
           <p>
             Passionate developer building modern web applications tailored to your needs. 
             Let's bring your vision to life with clean code and stunning design.
@@ -54,6 +54,7 @@ export default function Footer() {
             <li><a href="mailto:3337.rohit64@gmail.com">3337.rohit64@gmail.com</a></li>
             <li><a href="tel:+918475043164">+91 8475043164</a></li>
             <li><a href="https://www.linkedin.com/in/rohit3337/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://leetcode.com/u/Rohit_Chaudhary0310/" target="_blank" rel="noreferrer">LeetCode</a></li>
           </ul>
         </div>
       </div>

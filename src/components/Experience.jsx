@@ -2,18 +2,23 @@ import { useInView } from 'react-intersection-observer'
 
 const experiences = [
   {
+    date: 'Nov 2025 – Feb 2026',
+    title: 'Machine Learning Project Intern',
+    company: 'Virtual Labs Project (MoE NMEICT), DEI - Agra, India',
+    desc: 'Developed interactive machine learning virtual lab modules for a national MoE-funded initiative, translating core ML algorithms into hands-on learning components for students across partner institutions. Led testing and debugging cycles, incorporating expert-reviewed feedback to improve module accuracy and usability, contributing to a Top 20/200 national virtual lab hackathon result.',
+  },
+  {
     date: 'April 2025 – August 2025',
-    title: 'Semiconductor Test & Automation Intern',
-    company: 'NXP Semiconductors (via Silogix Nanosystems), Bengaluru',
-    desc: 'Automation and testing of impact analysis of single transistor, bitcell, and memory instances at the circuit level. Built a dashboard-integrated pipeline for data extraction and visualization.',
+    title: 'CAD Automation Intern',
+    company: 'NXP Semiconductors (Contract via SiLogix) - Bengaluru, India',
+    desc: 'Automated impact analysis workflows for single transistors, bitcells, and memory instances at the circuit level, reducing manual analysis effort. Designed and implemented a dashboard-integrated pipeline for data extraction, interpretation, and visualization, improving turnaround time on semiconductor design insight reporting.',
   },
   {
     date: 'May 2024 – June 2024',
     title: 'Backend Developer Intern',
-    company: 'Care Health Insurance, India',
-    desc: 'Gained hands-on experience in Spring Boot, Spring Security, and Spring Data JPA for secure authentication, authorization, and database management. Developed and tested backend components with API development and ORM workflows.',
+    company: 'Care Health Insurance - Gurugram, India',
+    desc: 'Built secure REST APIs using Spring Boot, Spring Security, and Spring Data JPA, implementing authentication, authorization, and database management for enterprise workflows. Developed and unit-tested backend components, strengthening ORM data-access patterns and enterprise-level Java application architecture.',
   },
-  
 ]
 
 export default function Experience() {

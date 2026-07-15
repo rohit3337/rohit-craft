@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { FiMail, FiPhone, FiMapPin, FiSend } from 'react-icons/fi'
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
@@ -10,7 +10,6 @@ export default function Contact() {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true })
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
   const [sending, setSending] = useState(false)
-  const formRef = useRef()
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value })
@@ -120,6 +119,15 @@ export default function Contact() {
               title="Twitter"
             >
               <FaTwitter />
+            </a>
+            <a
+              href="https://leetcode.com/u/Rohit_Chaudhary0310/"
+              target="_blank"
+              rel="noreferrer"
+              className="social-link leetcode"
+              title="LeetCode"
+            >
+              LC
             </a>
           </div>
         </div>

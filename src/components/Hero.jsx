@@ -22,7 +22,7 @@ export default function Hero() {
         >
           <div className="hero-badge">
             <span className="dot" />
-            Open to Internships and Collaborations
+            Open to Internships, Full-Time Employment, and Collaborations
           </div>
 
           <h1 className="hero-title">

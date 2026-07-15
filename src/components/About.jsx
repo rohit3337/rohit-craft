@@ -28,15 +28,15 @@ export default function About() {
             I'm <span style={{ color: '#6c63ff' }}>Rohit</span>, a Developer &amp; Problem Solver
           </h2>
           <p>
-            I'm a B.Tech student at <strong>Dayalbagh Educational Institute</strong> (Electrical Engineering 
-            specializing in Computer Science) with a strong passion for building web applications, 
-            AI-powered tools, and full-stack solutions. Currently maintaining a <strong>8.63 CGPA</strong>.
+            I'm a B.Tech graduate from <strong>Dayalbagh Educational Institute</strong> (Electrical Engineering 
+            specializing in Computer Science) with distinction and an <strong>8.68 CGPA</strong> average across 
+            8 semesters. I have a strong passion for building web applications, AI-powered tools, and 
+            full-stack solutions.
           </p>
           <p>
-            I have hands-on experience with <strong>React, Python, Java, Spring Boot, LangChain, 
-            and Django</strong>. I've interned at <strong>NXP Semiconductors</strong> (via Silogix Nanosystems), 
-            working on Automation and testing of impact analysis of single transistor, bitcell, and memory instances at the circuit level. Built a dashboard-integrated pipeline for data extraction and  visualization, and at <strong>Care Health Insurance</strong>, building 
-            production-ready systems from test dashboards to backend APIs.
+            I have hands-on experience with <strong>Python, Java, C++</strong>, backend engineering, and
+            agentic AI systems. I've worked on projects and internships spanning machine learning virtual labs,
+            semiconductor automation, and secure REST API development.
           </p>
           <p>
             I'm available to build your web applications according to your specific requirements — 
@@ -51,7 +51,7 @@ export default function About() {
             </div>
             <div className="about-detail">
               <span className="label">Education</span>
-              <span className="value">B.Tech EE (CSE), DEI</span>
+              <span className="value">B.Tech EE (CSE), DEI - Distinction</span>
             </div>
             <div className="about-detail">
               <span className="label">Email</span>
@@ -75,6 +75,14 @@ export default function About() {
                 </a>
               </span>
             </div>
+            <div className="about-detail">
+              <span className="label">LeetCode</span>
+              <span className="value">
+                <a href="https://leetcode.com/u/Rohit_Chaudhary0310/" target="_blank" rel="noreferrer">
+                  LeetCode Profile
+                </a>
+              </span>
+            </div>
           </div>
 
           <div style={{ display: 'flex', gap: '1rem', marginTop: '0.5rem' }}>
@@ -83,6 +91,9 @@ export default function About() {
             </a>
             <a href="https://github.com/rohit3337" target="_blank" rel="noreferrer" className="btn-secondary" style={{ textDecoration: 'none' }}>
               <FaGithub /> GitHub Profile
+            </a>
+            <a href="https://leetcode.com/u/Rohit_Chaudhary0310/" target="_blank" rel="noreferrer" className="btn-secondary" style={{ textDecoration: 'none' }}>
+              LeetCode Profile
             </a>
           </div>
         </div>

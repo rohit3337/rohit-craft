@@ -44,7 +44,7 @@ export default function Navbar() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="navbar-container">
           <div className="navbar-logo" onClick={() => scrollTo('#home')}>
-            Rohit<span>.</span>craft
+            Rohit<span>.</span>Portfolio
           </div>
           <ul className="navbar-links">
             {navItems.map(item => (
