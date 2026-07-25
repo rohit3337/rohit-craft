@@ -78,7 +78,7 @@ export default function About() {
             <div className="about-detail">
               <span className="label">LeetCode</span>
               <span className="value">
-                <a href="https://leetcode.com/u/Rohit_Chaudhary0310/" target="_blank" rel="noreferrer">
+                <a href="https://leetcode.com/u/Rohit_031003/" target="_blank" rel="noreferrer">
                   LeetCode Profile
                 </a>
               </span>
@@ -92,7 +92,7 @@ export default function About() {
             <a href="https://github.com/rohit3337" target="_blank" rel="noreferrer" className="btn-secondary" style={{ textDecoration: 'none' }}>
               <FaGithub /> GitHub Profile
             </a>
-            <a href="https://leetcode.com/u/Rohit_Chaudhary0310/" target="_blank" rel="noreferrer" className="btn-secondary" style={{ textDecoration: 'none' }}>
+            <a href="https://leetcode.com/u/Rohit_031003/" target="_blank" rel="noreferrer" className="btn-secondary" style={{ textDecoration: 'none' }}>
               LeetCode Profile
             </a>
           </div>

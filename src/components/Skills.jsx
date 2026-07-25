@@ -1,17 +1,23 @@
 import { useInView } from 'react-intersection-observer'
-import { FaReact, FaPython, FaJava, FaGitAlt, FaLinux, FaDatabase } from 'react-icons/fa'
-import { SiSpringboot, SiDjango, SiJavascript, SiMysql, SiMongodb, SiDocker } from 'react-icons/si'
-import { FiCode, FiServer, FiTool, FiCpu } from 'react-icons/fi'
+import { FaReact, FaPython, FaJava, FaGitAlt, FaLinux, FaGithub, FaNodeJs } from 'react-icons/fa'
+import { SiSpringboot, SiDjango, SiJavascript, SiMysql, SiPostgresql } from 'react-icons/si'
+import { VscCode } from 'react-icons/vsc'
+import { FiCode, FiServer, FiCpu, FiDatabase } from 'react-icons/fi'
 
 const topSkills = [
-  { icon: <FaReact />, name: 'React', level: 'Familiar' },
   { icon: <FaPython />, name: 'Python', level: 'Intermediate' },
   { icon: <FaJava />, name: 'Java', level: 'Advanced' },
   { icon: <FiCode />, name: 'C++', level: 'Advanced' },
-  { icon: <SiSpringboot />, name: 'Spring Boot', level: 'Intermediate' },
-  { icon: <SiDjango />, name: 'Django', level: 'Intermediate' },
   { icon: <SiJavascript />, name: 'JavaScript', level: 'Intermediate' },
-  { icon: <FaGitAlt />, name: 'Git/GitHub', level: 'Intermediate' },
+  { icon: <FaReact />, name: 'React', level: 'Familiar' },
+  { icon: <FaNodeJs />, name: 'Node.js', level: 'Intermediate' },
+  { icon: <SiDjango />, name: 'Django', level: 'Intermediate' },
+  { icon: <SiSpringboot />, name: 'Spring Boot', level: 'Intermediate' },
+  { icon: <SiPostgresql />, name: 'PostgreSQL', level: 'Intermediate' },
+  { icon: <SiMysql />, name: 'MySQL', level: 'Intermediate' },
+  { icon: <FaGitAlt />, name: 'Git', level: 'Intermediate' },
+  { icon: <FaGithub />, name: 'GitHub', level: 'Intermediate' },
+  { icon: <VscCode />, name: 'VS Code', level: 'Proficient' },
   { icon: <FaLinux />, name: 'Linux', level: 'Intermediate' },
 ]
 
@@ -23,7 +29,6 @@ const categories = [
       { name: 'Python', pct: 90 },
       { name: 'Java', pct: 85 },
       { name: 'C++', pct: 88 },
-      { name: 'C', pct: 80 },
       { name: 'JavaScript', pct: 85 },
     ],
   },
@@ -32,19 +37,19 @@ const categories = [
     title: 'Frameworks & Libraries',
     skills: [
       { name: 'React', pct: 88 },
+      { name: 'Node.js', pct: 80 },
       { name: 'Spring Boot / JPA', pct: 78 },
       { name: 'Django', pct: 75 },
-      { name: 'LangChain', pct: 82 },
     ],
   },
   {
-    icon: <FaDatabase />,
+    icon: <FiDatabase />,
     title: 'Databases & Tools',
     skills: [
+      { name: 'PostgreSQL', pct: 80 },
       { name: 'MySQL', pct: 80 },
       { name: 'Git / GitHub', pct: 92 },
-      { name: 'Pandas / NumPy', pct: 85 },
-      { name: 'REST APIs', pct: 88 },
+      { name: 'VS Code / Linux', pct: 90 },
     ],
   },
   {

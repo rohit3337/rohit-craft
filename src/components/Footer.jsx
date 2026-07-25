@@ -54,7 +54,7 @@ export default function Footer() {
             <li><a href="mailto:3337.rohit64@gmail.com">3337.rohit64@gmail.com</a></li>
             <li><a href="tel:+918475043164">+91 8475043164</a></li>
             <li><a href="https://www.linkedin.com/in/rohit3337/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            <li><a href="https://leetcode.com/u/Rohit_Chaudhary0310/" target="_blank" rel="noreferrer">LeetCode</a></li>
+            <li><a href="https://leetcode.com/u/Rohit_031003/" target="_blank" rel="noreferrer">LeetCode</a></li>
           </ul>
         </div>
       </div>

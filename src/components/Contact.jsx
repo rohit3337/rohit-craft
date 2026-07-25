@@ -121,7 +121,7 @@ export default function Contact() {
               <FaTwitter />
             </a>
             <a
-              href="https://leetcode.com/u/Rohit_Chaudhary0310/"
+              href="https://leetcode.com/u/Rohit_031003/"
               target="_blank"
               rel="noreferrer"
               className="social-link leetcode"
